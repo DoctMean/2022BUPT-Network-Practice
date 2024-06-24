@@ -1,0 +1,1128 @@
+DNS server listening on port 53...
+Received DNS query from 127.0.0.1:62232
+data.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+0 1
+Received DNS query from 127.0.0.1:53278
+data.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+0 2
+Received DNS response from 10.3.9.4:53
+0
+!!!
+1 2
+Received DNS response from 10.3.9.4:53
+1
+!!!
+2 2
+Received DNS query from 127.0.0.1:62232
+api.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+2 3
+Received DNS query from 127.0.0.1:51952
+api.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+2 4
+Received DNS response from 10.3.9.4:53
+2
+!!!
+3 4
+Received DNS response from 10.3.9.4:53
+3
+!!!
+4 4
+Received DNS query from 127.0.0.1:62232
+api.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+4 5
+Received DNS response from 10.3.9.4:53
+4
+!!!
+5 5
+Received DNS query from 127.0.0.1:53278
+data.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+5 6
+Received DNS query from 127.0.0.1:51952
+api.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+5 7
+Received DNS response from 10.3.9.4:53
+5
+!!!
+6 7
+Received DNS response from 10.3.9.4:53
+6
+!!!
+7 7
+Received DNS query from 127.0.0.1:62502
+boss.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+7 8
+Received DNS query from 127.0.0.1:57132
+boss.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+7 9
+Received DNS response from 10.3.9.4:53
+7
+!!!
+8 9
+Received DNS response from 10.3.9.4:53
+8
+!!!
+9 9
+Received DNS query from 127.0.0.1:62502
+boss.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+9 10
+Received DNS query from 127.0.0.1:57132
+boss.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+9 11
+Received DNS response from 10.3.9.4:53
+10
+!!!
+9 11
+Received DNS response from 10.3.9.4:53
+9
+!!!
+11 11
+Received DNS query from 127.0.0.1:60026
+optimizationguide-pa.googleapis.com: type 28, class 1
+Not found in DNS table
+!!!
+11 12
+Received DNS query from 127.0.0.1:52799
+www.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+11 13
+Received DNS query from 127.0.0.1:49568
+www.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+11 14
+Received DNS query from 127.0.0.1:50487
+s1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+11 15
+Received DNS query from 127.0.0.1:63295
+s1.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+11 16
+Received DNS response from 10.3.9.4:53
+11
+!!!
+12 16
+Received DNS response from 10.3.9.4:53
+12
+!!!
+13 16
+Received DNS response from 10.3.9.4:53
+13
+!!!
+14 16
+Received DNS response from 10.3.9.4:53
+14
+!!!
+15 16
+Received DNS response from 10.3.9.4:53
+15
+!!!
+16 16
+Received DNS query from 127.0.0.1:50487
+s1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+16 17
+Received DNS query from 127.0.0.1:49568
+www.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+16 18
+Received DNS query from 127.0.0.1:52799
+www.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+16 19
+Received DNS response from 10.3.9.4:53
+17
+!!!
+16 19
+Received DNS response from 10.3.9.4:53
+18
+!!!
+16 19
+Received DNS response from 10.3.9.4:53
+16
+!!!
+19 19
+Received DNS query from 127.0.0.1:60026
+cn-bj-fx-01-07.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+19 20
+Received DNS query from 127.0.0.1:63295
+cn-bj-fx-01-07.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+19 21
+Received DNS query from 127.0.0.1:51803
+cn-bj-fx-01-08.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+19 22
+Received DNS query from 127.0.0.1:61476
+cn-bj-fx-01-08.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+19 23
+Received DNS response from 10.3.9.4:53
+20
+!!!
+19 23
+Received DNS response from 10.3.9.4:53
+19
+!!!
+21 23
+Received DNS response from 10.3.9.4:53
+21
+!!!
+22 23
+Received DNS response from 10.3.9.4:53
+22
+!!!
+23 23
+Received DNS query from 127.0.0.1:61476
+cn-bj-fx-01-08.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+23 24
+Received DNS response from 10.3.9.4:53
+23
+!!!
+24 24
+Received DNS query from 127.0.0.1:62232
+api.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+24 25
+Received DNS response from 10.3.9.4:53
+24
+!!!
+25 25
+Received DNS query from 127.0.0.1:51952
+api.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+25 26
+Received DNS query from 127.0.0.1:53278
+data.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+25 27
+Received DNS response from 10.3.9.4:53
+25
+!!!
+26 27
+Received DNS response from 10.3.9.4:53
+26
+!!!
+27 27
+Received DNS query from 127.0.0.1:51803
+cm.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+27 28
+Received DNS query from 127.0.0.1:63295
+cm.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+27 29
+Received DNS response from 10.3.9.4:53
+28
+!!!
+27 29
+Received DNS response from 10.3.9.4:53
+27
+!!!
+29 29
+Received DNS query from 127.0.0.1:60026
+cn-bj-fx-01-03.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+29 30
+Received DNS query from 127.0.0.1:49175
+cn-bj-fx-01-05.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+29 31
+Received DNS query from 127.0.0.1:53598
+cn-bj-fx-01-03.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+29 32
+Received DNS response from 10.3.9.4:53
+31
+!!!
+29 32
+Received DNS response from 10.3.9.4:53
+29
+!!!
+30 32
+Received DNS response from 10.3.9.4:53
+30
+!!!
+32 32
+Received DNS query from 127.0.0.1:51803
+cm.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+32 33
+Received DNS query from 127.0.0.1:63295
+cm.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+32 34
+Received DNS query from 127.0.0.1:57132
+boss.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+32 35
+Received DNS query from 127.0.0.1:62502
+boss.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+32 36
+Received DNS response from 10.3.9.4:53
+32
+!!!
+33 36
+Received DNS response from 10.3.9.4:53
+33
+!!!
+34 36
+Received DNS response from 10.3.9.4:53
+35
+!!!
+34 36
+Received DNS response from 10.3.9.4:53
+34
+!!!
+36 36
+Received DNS query from 127.0.0.1:53598
+cn-bj-fx-01-03.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+36 37
+Received DNS response from 10.3.9.4:53
+36
+!!!
+37 37
+Received DNS query from 127.0.0.1:60026
+bvc.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+37 38
+Received DNS query from 127.0.0.1:49175
+bvc.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+37 39
+Received DNS response from 10.3.9.4:53
+37
+!!!
+38 39
+Received DNS response from 10.3.9.4:53
+38
+!!!
+39 39
+Received DNS query from 127.0.0.1:52799
+www.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+39 40
+Received DNS query from 127.0.0.1:49568
+www.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+39 41
+Received DNS query from 127.0.0.1:50487
+s1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+39 42
+Received DNS response from 10.3.9.4:53
+40
+!!!
+39 42
+Received DNS response from 10.3.9.4:53
+39
+!!!
+41 42
+Received DNS response from 10.3.9.4:53
+41
+!!!
+42 42
+Received DNS query from 127.0.0.1:60026
+bvc.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+42 43
+Received DNS response from 10.3.9.4:53
+42
+!!!
+43 43
+Received DNS query from 127.0.0.1:49175
+content-autofill.googleapis.com: type 1, class 1
+Not found in DNS table
+!!!
+43 44
+Received DNS query from 127.0.0.1:56898
+content-autofill.googleapis.com: type 28, class 1
+Not found in DNS table
+!!!
+43 45
+Received DNS response from 10.3.9.4:53
+43
+!!!
+44 45
+Received DNS response from 10.3.9.4:53
+44
+!!!
+45 45
+Received DNS query from 127.0.0.1:54118
+mobile.events.data.microsoft.com: type 28, class 1
+Not found in DNS table
+!!!
+45 46
+Received DNS query from 127.0.0.1:53868
+mobile.events.data.microsoft.com: type 1, class 1
+Not found in DNS table
+!!!
+45 47
+Received DNS query from 127.0.0.1:50062
+mobile.events.data.microsoft.com: type 65, class 1
+Not found in DNS table
+!!!
+45 48
+Received DNS response from 10.3.9.4:53
+45
+!!!
+46 48
+Received DNS response from 10.3.9.4:53
+47
+!!!
+46 48
+Received DNS response from 10.3.9.4:53
+46
+!!!
+48 48
+Received DNS query from 127.0.0.1:56778
+mobile.events.data.microsoft.com: type 28, class 1
+Not found in DNS table
+!!!
+48 49
+Received DNS query from 127.0.0.1:54029
+mobile.events.data.microsoft.com: type 1, class 1
+Not found in DNS table
+!!!
+48 50
+Received DNS response from 10.3.9.4:53
+49
+!!!
+48 50
+Received DNS response from 10.3.9.4:53
+48
+!!!
+50 50
+Received DNS query from 127.0.0.1:61476
+cn-bj-fx-01-08.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+50 51
+Received DNS response from 10.3.9.4:53
+50
+!!!
+51 51
+Received DNS query from 127.0.0.1:63295
+cm.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+51 52
+Received DNS query from 127.0.0.1:51803
+cm.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+51 53
+Received DNS query from 127.0.0.1:53598
+cn-bj-fx-01-03.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+51 54
+Received DNS response from 10.3.9.4:53
+52
+!!!
+51 54
+Received DNS response from 10.3.9.4:53
+51
+!!!
+53 54
+Received DNS response from 10.3.9.4:53
+53
+!!!
+54 54
+Received DNS query from 127.0.0.1:49175
+s1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+54 55
+Received DNS query from 127.0.0.1:56898
+s1.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+54 56
+Received DNS response from 10.3.9.4:53
+54
+!!!
+55 56
+Received DNS response from 10.3.9.4:53
+55
+!!!
+56 56
+Received DNS query from 127.0.0.1:56898
+s1.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+56 57
+Received DNS query from 127.0.0.1:49175
+s1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+56 58
+Received DNS response from 10.3.9.4:53
+56
+!!!
+57 58
+Received DNS response from 10.3.9.4:53
+57
+!!!
+58 58
+Received DNS query from 127.0.0.1:52423
+api.live.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+58 59
+Received DNS query from 127.0.0.1:60818
+api.live.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+58 60
+Received DNS response from 10.3.9.4:53
+59
+!!!
+58 60
+Received DNS response from 10.3.9.4:53
+58
+!!!
+60 60
+Received DNS query from 127.0.0.1:60818
+api.live.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+60 61
+Received DNS response from 10.3.9.4:53
+60
+!!!
+61 61
+Received DNS query from 127.0.0.1:52423
+i0.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+61 62
+Received DNS query from 127.0.0.1:61867
+i0.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+61 63
+Received DNS query from 127.0.0.1:59551
+i2.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+61 64
+Received DNS query from 127.0.0.1:50542
+i2.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+61 65
+Received DNS response from 10.3.9.4:53
+61
+!!!
+62 65
+Received DNS response from 10.3.9.4:53
+64
+!!!
+62 65
+Received DNS response from 10.3.9.4:53
+63
+!!!
+62 65
+Received DNS response from 10.3.9.4:53
+62
+!!!
+65 65
+Received DNS query from 127.0.0.1:60026
+bvc.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+65 66
+Received DNS response from 10.3.9.4:53
+65
+!!!
+66 66
+Received DNS query from 127.0.0.1:61867
+i0.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+66 67
+Received DNS query from 127.0.0.1:50542
+i2.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+66 68
+Received DNS query from 127.0.0.1:59551
+i2.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+66 69
+Received DNS response from 10.3.9.4:53
+67
+!!!
+66 69
+Received DNS response from 10.3.9.4:53
+66
+!!!
+68 69
+Received DNS response from 10.3.9.4:53
+68
+!!!
+69 69
+Received DNS query from 127.0.0.1:52423
+interface.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+69 70
+Received DNS query from 127.0.0.1:55369
+interface.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+69 71
+Received DNS response from 10.3.9.4:53
+69
+!!!
+70 71
+Received DNS response from 10.3.9.4:53
+70
+!!!
+71 71
+Received DNS query from 127.0.0.1:62232
+api.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+71 72
+Received DNS response from 10.3.9.4:53
+71
+!!!
+72 72
+Received DNS query from 127.0.0.1:51952
+api.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+72 73
+Received DNS query from 127.0.0.1:53278
+data.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+72 74
+Received DNS response from 10.3.9.4:53
+72
+!!!
+73 74
+Received DNS response from 10.3.9.4:53
+73
+!!!
+74 74
+Received DNS query from 127.0.0.1:55369
+passport.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+74 75
+Received DNS query from 127.0.0.1:52423
+passport.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+74 76
+Received DNS response from 10.3.9.4:53
+74
+!!!
+75 76
+Received DNS response from 10.3.9.4:53
+75
+!!!
+76 76
+Received DNS query from 127.0.0.1:57132
+boss.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+76 77
+Received DNS query from 127.0.0.1:62502
+boss.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+76 78
+Received DNS response from 10.3.9.4:53
+77
+!!!
+76 78
+Received DNS response from 10.3.9.4:53
+76
+!!!
+78 78
+Received DNS query from 127.0.0.1:55369
+api.vc.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+78 79
+Received DNS query from 127.0.0.1:52423
+api.vc.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+78 80
+Received DNS response from 10.3.9.4:53
+79
+!!!
+78 80
+Received DNS response from 10.3.9.4:53
+78
+!!!
+80 80
+Received DNS query from 127.0.0.1:55369
+api.vc.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+80 81
+Received DNS response from 10.3.9.4:53
+80
+!!!
+81 81
+Received DNS query from 127.0.0.1:56898
+s1.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+81 82
+Received DNS query from 127.0.0.1:49175
+s1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+81 83
+Received DNS response from 10.3.9.4:53
+81
+!!!
+82 83
+Received DNS response from 10.3.9.4:53
+82
+!!!
+83 83
+Received DNS query from 127.0.0.1:50487
+s1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+83 84
+Received DNS query from 127.0.0.1:49568
+www.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+83 85
+Received DNS query from 127.0.0.1:52799
+www.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+83 86
+Received DNS response from 10.3.9.4:53
+83
+!!!
+84 86
+Received DNS response from 10.3.9.4:53
+84
+!!!
+85 86
+Received DNS response from 10.3.9.4:53
+85
+!!!
+86 86
+Received DNS query from 127.0.0.1:60818
+api.live.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+86 87
+Received DNS response from 10.3.9.4:53
+86
+!!!
+87 87
+Received DNS query from 127.0.0.1:59551
+i2.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+87 88
+Received DNS query from 127.0.0.1:61867
+i0.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+87 89
+Received DNS query from 127.0.0.1:50542
+i2.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+87 90
+Received DNS response from 10.3.9.4:53
+87
+!!!
+88 90
+Received DNS response from 10.3.9.4:53
+89
+!!!
+88 90
+Received DNS response from 10.3.9.4:53
+88
+!!!
+90 90
+Received DNS query from 127.0.0.1:52423
+upos-sz-mirrorali.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+90 91
+Received DNS query from 127.0.0.1:50268
+upos-sz-mirrorali.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+90 92
+Received DNS response from 10.3.9.4:53
+90
+!!!
+91 92
+Received DNS response from 10.3.9.4:53
+91
+!!!
+92 92
+Received DNS query from 127.0.0.1:52423
+upos-sz-mirrorali.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+92 93
+Received DNS query from 127.0.0.1:50268
+upos-sz-mirrorali.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+92 94
+Received DNS query from 127.0.0.1:61476
+cn-bj-fx-01-08.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+92 95
+Received DNS response from 10.3.9.4:53
+93
+!!!
+92 95
+Received DNS response from 10.3.9.4:53
+92
+!!!
+94 95
+Received DNS response from 10.3.9.4:53
+94
+!!!
+95 95
+Received DNS query from 127.0.0.1:63295
+cm.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+95 96
+Received DNS query from 127.0.0.1:51803
+cm.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+95 97
+Received DNS response from 10.3.9.4:53
+96
+!!!
+95 97
+Received DNS response from 10.3.9.4:53
+95
+!!!
+97 97
+Received DNS query from 127.0.0.1:53598
+cn-bj-fx-01-03.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+97 98
+Received DNS response from 10.3.9.4:53
+97
+!!!
+98 98
+Received DNS query from 127.0.0.1:55369
+api.vc.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+98 99
+Received DNS response from 10.3.9.4:53
+98
+!!!
+99 99
+Received DNS query from 127.0.0.1:60026
+bvc.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+99 100
+Received DNS response from 10.3.9.4:53
+99
+!!!
+100 100
+Received DNS query from 127.0.0.1:63605
+i1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+100 101
+Received DNS query from 127.0.0.1:63013
+i1.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+100 102
+Received DNS response from 10.3.9.4:53
+100
+!!!
+101 102
+Received DNS response from 10.3.9.4:53
+101
+!!!
+102 102
+Received DNS query from 127.0.0.1:50268
+upos-sz-mirrorali.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+102 103
+Received DNS query from 127.0.0.1:52423
+upos-sz-mirrorali.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+102 104
+Received DNS response from 10.3.9.4:53
+102
+!!!
+103 104
+Received DNS response from 10.3.9.4:53
+103
+!!!
+104 104
+Received DNS query from 127.0.0.1:49175
+s1.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+104 105
+Received DNS query from 127.0.0.1:56898
+s1.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+104 106
+Received DNS response from 10.3.9.4:53
+104
+!!!
+105 106
+Received DNS response from 10.3.9.4:53
+105
+!!!
+106 106
+Received DNS query from 127.0.0.1:60818
+api.live.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+106 107
+Received DNS response from 10.3.9.4:53
+106
+!!!
+107 107
+Received DNS query from 127.0.0.1:59551
+i2.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+107 108
+Received DNS query from 127.0.0.1:50542
+i2.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+107 109
+Received DNS query from 127.0.0.1:61867
+i0.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+107 110
+Received DNS response from 10.3.9.4:53
+107
+!!!
+108 110
+Received DNS response from 10.3.9.4:53
+109
+!!!
+108 110
+Received DNS response from 10.3.9.4:53
+108
+!!!
+110 110
+Received DNS query from 127.0.0.1:63605
+data.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+110 111
+Received DNS response from 10.3.9.4:53
+110
+!!!
+111 111
+Received DNS query from 127.0.0.1:63013
+api.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+111 112
+Received DNS query from 127.0.0.1:63605
+api.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+111 113
+Received DNS response from 10.3.9.4:53
+111
+!!!
+112 113
+Received DNS response from 10.3.9.4:53
+112
+!!!
+113 113
+Received DNS query from 127.0.0.1:63013
+api.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+113 114
+Received DNS response from 10.3.9.4:53
+113
+!!!
+114 114
+Received DNS query from 127.0.0.1:63605
+boss.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+114 115
+Received DNS query from 127.0.0.1:56899
+boss.hdslb.com: type 28, class 1
+Not found in DNS table
+!!!
+114 116
+Received DNS response from 10.3.9.4:53
+114
+!!!
+115 116
+Received DNS response from 10.3.9.4:53
+115
+!!!
+116 116
+Received DNS query from 127.0.0.1:63605
+boss.hdslb.com: type 1, class 1
+Not found in DNS table
+!!!
+116 117
+Received DNS response from 10.3.9.4:53
+116
+!!!
+117 117
+Received DNS query from 127.0.0.1:55369
+api.vc.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+117 118
+Received DNS response from 10.3.9.4:53
+117
+!!!
+118 118
+Received DNS query from 127.0.0.1:56899
+www.bilibili.com: type 1, class 1
+Not found in DNS table
+!!!
+118 119
+Received DNS query from 127.0.0.1:63026
+www.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+118 120
+Received DNS response from 10.3.9.4:53
+118
+!!!
+119 120
+Received DNS response from 10.3.9.4:53
+119
+!!!
+120 120
+Received DNS query from 127.0.0.1:63026
+www.bilibili.com: type 28, class 1
+Not found in DNS table
+!!!
+120 121
+Received DNS response from 10.3.9.4:53
+120
+!!!
+121 121
+Received DNS query from 127.0.0.1:56899
+cn-bj-fx-01-08.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+121 122
+Received DNS response from 10.3.9.4:53
+121
+!!!
+122 122
+Received DNS query from 127.0.0.1:56899
+cn-bj-fx-01-08.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+122 123
+Received DNS response from 10.3.9.4:53
+122
+!!!
+123 123
+Received DNS query from 127.0.0.1:50268
+upos-sz-mirrorali.bilivideo.com: type 28, class 1
+Not found in DNS table
+!!!
+123 124
+Received DNS query from 127.0.0.1:52423
+upos-sz-mirrorali.bilivideo.com: type 1, class 1
+Not found in DNS table
+!!!
+123 125
+Received DNS response from 10.3.9.4:53
+123
+!!!
+124 125
+Received DNS response from 10.3.9.4:53
+124
+!!!
+125 125
+Received DNS query from 127.0.0.1:62232
+api.bilibili.com: type 
