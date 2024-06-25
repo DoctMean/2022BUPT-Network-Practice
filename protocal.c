@@ -79,7 +79,11 @@ void extract_name(char *buffer, int *offset, char *output) {
 }
 
 void extract_header(Segment *segment,char *buffer){
+<<<<<<< HEAD
     segment->id = ((short)(buffer[0]&0xff) << 8) | (buffer[1]&0xff); // 获取 DNS 查询 ID
+=======
+    segment->id = ((buffer[0]&0xff) << 8) | (buffer[1]&0xff); // 获取 DNS 查询 ID
+>>>>>>> b94af2dfa32919ec78fda763533f7693eb045d62
     segment->QR = ((buffer[2]&0xff) >> 7) & 0x01; // 获取 DNS 查询 QR 标志
     segment->opcode = ((buffer[2]&0xff) >> 3) & 0x0F; // 获取 DNS 查询 Opcode
     segment->AA = ((buffer[2]&0xff) >> 2) & 0x01; // 获取 DNS 查询 AA 标志
@@ -88,10 +92,17 @@ void extract_header(Segment *segment,char *buffer){
     segment->RA = ((buffer[3]&0xff) >> 7) & 0x01; // 获取 DNS 查询 RA 标志
     segment->Z = ((buffer[3]&0xff) >> 4) & 0x07; // 获取 DNS 查询 Z 标志
     segment->RCODE = (buffer[3]&0xff) & 0x0F; // 获取 DNS 查询 RCODE
+<<<<<<< HEAD
     segment->QDCOUNT = ((short)(buffer[4]&0xff) << 8) | (buffer[5]&0xff); // 获取 DNS 查询 QDCOUNT
     segment->ANCOUNT = ((short)(buffer[6]&0xff) << 8) | (buffer[7]&0xff); // 获取 DNS 查询 ANCOUNT
     segment->NSCOUNT = ((short)(buffer[8]&0xff) << 8) | (buffer[9]&0xff); // 获取 DNS 查询 NSCOUNT
     segment->ARCOUNT = ((short)(buffer[10]&0xff) << 8) | (buffer[11]&0xff); // 获取 DNS 查询 ARCOUNT
+=======
+    segment->QDCOUNT = ((buffer[4]&0xff) << 8) | (buffer[5]&0xff); // 获取 DNS 查询 QDCOUNT
+    segment->ANCOUNT = ((buffer[6]&0xff) << 8) | (buffer[7]&0xff); // 获取 DNS 查询 ANCOUNT
+    segment->NSCOUNT = ((buffer[8]&0xff) << 8) | (buffer[9]&0xff); // 获取 DNS 查询 NSCOUNT
+    segment->ARCOUNT = ((buffer[10]&0xff) << 8) | (buffer[11]&0xff); // 获取 DNS 查询 ARCOUNT
+>>>>>>> b94af2dfa32919ec78fda763533f7693eb045d62
 }
 
 void extract_question(Segment *segment, char *buffer, int *offset) {

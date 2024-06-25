@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include "dnstable.h"
 
+<<<<<<< HEAD
 trie *root;
 
 void init(trie *node){
@@ -71,6 +72,167 @@ char *query(char *s,int nowTime) {
 void load_dns_table(const char *filename) {
     root = malloc(sizeof(trie));
     init(root);
+=======
+HashTable *LRUhead,*hashTableHead[mod];
+int cntBuffer;
+
+void initHashNode(HashTable *node){
+    node->name=NULL;
+    node->ip=NULL;
+    node->cname=NULL;
+    node->ttl=0;
+    node->next=node->prev=NULL;
+    node->LRUnext=node->LRUprev=NULL;
+}
+
+void initHashTable(){
+    LRUhead=malloc(sizeof(HashTable));
+    LRUhead->LRUnext=LRUhead->LRUprev=LRUhead;
+    for(int i=0;i<mod;i++){
+        hashTableHead[i]=malloc(sizeof(HashTable));
+        initHashNode(hashTableHead[i]);
+        hashTableHead[i]->next=hashTableHead[i]->prev=hashTableHead[i];
+    }
+}
+
+void moveToFront(HashTable *node){
+    if(cntBuffer<=2)return;
+    node->LRUprev->LRUnext=node->LRUnext;
+    node->LRUnext->LRUprev=node->LRUprev;
+    node->LRUnext=LRUhead->LRUnext;
+    node->LRUprev=LRUhead;
+    LRUhead->LRUnext->LRUprev=node;
+    LRUhead->LRUnext=node;
+}
+
+void removeNode(HashTable *node){
+    node->prev->next=node->next;
+    node->next->prev=node->prev;
+    node->LRUprev->LRUnext=node->LRUnext;
+    node->LRUnext->LRUprev=node->LRUprev;
+    free(node->name);
+    free(node->ip);
+    free(node->cname);
+    free(node);
+}
+
+void insertIp(char *s, char *ip,int ttl) {
+    if(cntBuffer>2*mod)removeNode(LRUhead->LRUprev);
+    int len=strlen(s);
+    int hash=0;
+    for(int i=0;i<len;i++){
+        hash=(hash*P+s[i])%mod;
+    }
+    HashTable *now=hashTableHead[hash];
+    while(now->next!=hashTableHead[hash]){
+        now=now->next;
+        if(strcmp(now->name,s)==0){
+            now->ip=strdup(ip);
+            now->ttl=ttl;
+            if(ttl!=-1)moveToFront(now);
+            return;
+        }
+    }
+    HashTable *newNode=malloc(sizeof(HashTable));
+    initHashNode(newNode);
+    newNode->name=strdup(s);
+    newNode->ip=strdup(ip);
+    newNode->cname=NULL;
+    newNode->ttl=ttl;
+    newNode->next=hashTableHead[hash];
+    newNode->prev=now;
+    now->next=newNode;
+    hashTableHead[hash]->prev=newNode;
+    if(ttl!=-1){
+        cntBuffer++;
+        newNode->LRUnext=LRUhead->LRUnext;
+        newNode->LRUprev=LRUhead;
+        LRUhead->LRUnext->LRUprev=newNode;
+        LRUhead->LRUnext=newNode;
+    }
+}
+
+void insertCname(char *s,char *cname,int ttl){
+    if(cntBuffer>2*mod)removeNode(LRUhead->LRUprev);
+    int len=strlen(s);
+    int hash=0;
+    for(int i=0;i<len;i++){
+        hash=(hash*P+s[i])%mod;
+    }
+    HashTable *now=hashTableHead[hash];
+    while(now->next!=hashTableHead[hash]){
+        now=now->next;
+        if(strcmp(now->name,s)==0){
+            now->cname=strdup(cname);
+            now->ttl=ttl;
+            if(ttl!=-1)moveToFront(now);
+            return;
+        }
+    }
+    HashTable *newNode=malloc(sizeof(HashTable));
+    initHashNode(newNode);
+    newNode->name=strdup(s);
+    newNode->cname=strdup(cname);
+    newNode->ttl=ttl;
+    newNode->next=hashTableHead[hash];
+    newNode->prev=now;
+    now->next=newNode;
+    hashTableHead[hash]->prev=newNode;
+    if(ttl!=-1){
+        cntBuffer++;
+        newNode->LRUnext=LRUhead->LRUnext;
+        newNode->LRUprev=LRUhead;
+        LRUhead->LRUnext->LRUprev=newNode;
+        LRUhead->LRUnext=newNode;
+    }
+}
+
+char *queryIp(char *s,int nowTime) {
+    int len=strlen(s);
+    int hash=0;
+    for(int i=0;i<len;i++){
+        hash=(hash*P+s[i])%mod;
+    }
+    HashTable *now=hashTableHead[hash];
+    while(now->next!=hashTableHead[hash]){
+        now=now->next;
+        if(strcmp(now->name,s)==0){
+            if((now->ttl)!=-1&&(now->ttl)<nowTime){
+                removeNode(now);
+                return NULL;
+            }
+            // moveToFront(now);
+            if((now->ip)!=NULL)return now->ip;
+            else if((now->cname)!=NULL)return queryIp(now->cname,nowTime);
+        }
+    }
+    return NULL;
+}
+
+char *queryCname(char *s,int nowTime){
+    int len=strlen(s);
+    int hash=0;
+    for(int i=0;i<len;i++){
+        hash=(hash*P+s[i])%mod;
+    }
+    HashTable *now=hashTableHead[hash];
+    while(now->next!=hashTableHead[hash]){
+        now=now->next;
+        if(strcmp(now->name,s)==0){
+            if((now->ttl)!=-1&&(now->ttl)<nowTime){
+                removeNode(now);
+                return NULL;
+            }
+            moveToFront(now);
+            return now->cname;
+        }
+    }
+    return NULL;
+}
+
+void load_dns_table(const char *filename) {
+    initHashTable();
+>>>>>>> b94af2dfa32919ec78fda763533f7693eb045d62
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
         printf("Cannot open file: %s\n", filename);
@@ -80,7 +242,11 @@ void load_dns_table(const char *filename) {
     char ip[16];
     char domain[256];
     while (fscanf(file, "%15s %255s", ip, domain) == 2) {
+<<<<<<< HEAD
         insert(domain, ip, 0);
+=======
+        insertIp(domain, ip, -1);
+>>>>>>> b94af2dfa32919ec78fda763533f7693eb045d62
     }
 
     fclose(file);
