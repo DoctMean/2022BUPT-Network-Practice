@@ -9,70 +9,6 @@
 #include <stdlib.h>
 #include "dnstable.h"
 
-<<<<<<< HEAD
-trie *root;
-
-void init(trie *node){
-    for(int i=0;i<128;i++){
-        node->next[i]=NULL;
-    }
-    node->cnt=0;
-    node->ttl=0;
-}
-
-void insert(char *s, char *ip,int ttl) {
-    trie *now=root;
-    for (int i = 0; s[i]; i++) {
-        if (!now->next[s[i]]) {
-            now->next[s[i]] = malloc(sizeof(trie));
-            init(now->next[s[i]]);
-        }
-        now=now->next[s[i]];
-        now->cnt++;
-    }
-    now->cnt++;
-    strcpy(now->ip,ip);
-    now->ttl=ttl;
-}
-
-void erase(char *s) {
-    trie *now=root;
-    for (int i = 0; s[i]; i++) {
-        if (!now->next[s[i]]) {
-            return;
-        }
-        trie *tmp=now;
-        now=now->next[s[i]];
-        now->cnt--;
-        if(tmp->cnt==0){
-            free(tmp);
-        }
-    }
-    now->cnt--;
-    if(now->cnt==0){
-        free(now);
-    }
-}
-
-char *query(char *s,int nowTime) {
-    trie *now=root;
-    for (int i = 0; s[i]; i++) {
-        if (!now->next[s[i]]) {
-            return NULL;
-        }
-        now=now->next[s[i]];
-    }
-    if(now->ttl&&now->ttl<nowTime){
-        return NULL;
-        erase(s);
-    }
-    return now->ip;
-}
-
-void load_dns_table(const char *filename) {
-    root = malloc(sizeof(trie));
-    init(root);
-=======
 HashTable *LRUhead,*hashTableHead[mod];
 int cntBuffer;
 
@@ -232,7 +168,6 @@ char *queryCname(char *s,int nowTime){
 
 void load_dns_table(const char *filename) {
     initHashTable();
->>>>>>> b94af2dfa32919ec78fda763533f7693eb045d62
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
         printf("Cannot open file: %s\n", filename);
@@ -242,11 +177,7 @@ void load_dns_table(const char *filename) {
     char ip[16];
     char domain[256];
     while (fscanf(file, "%15s %255s", ip, domain) == 2) {
-<<<<<<< HEAD
-        insert(domain, ip, 0);
-=======
         insertIp(domain, ip, -1);
->>>>>>> b94af2dfa32919ec78fda763533f7693eb045d62
     }
 
     fclose(file);
